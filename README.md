@@ -8,6 +8,6 @@ Technology used
 - CSS
 - JAVASCRIPT
 
-[project link](https:/abhijs24.netlify.app)
+[project link](https://abhijs24.netlify.app)
 
 ![projectImg](projectImg.png)
