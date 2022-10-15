@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- --- custom css ---- -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- --- javascript here ----   -->
+    <script src="addcart.js" defer></script>
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Cart item</title>
+</head>
+
+<body>
+    <!-- --- navbar ----- -->
+    <nav class="navbar flex space-between">
+        <a href="index.html">
+            <div class="logo">Cart A<span>pp</span></div>
+        </a>
+        <a href="cart.html">
+            <div class="icon">
+                <i class='bx bxs-cart-alt'></i>
+                <div class="count flex center">30</div>
+            </div>
+        </a>
+    </nav>
+
+    <!-- ---- main --- -->
+
+    <main>
+        <section class="cart-items flex space-between flex-wrap ">
+            <div class="AllItems"></div>
+
+           <div class="pricedetails">
+                <div class="priceheader">PRICE DETAILS</div>
+                <div class="priceinfo flex space-between">
+                    <span>Price</span>
+                    <span class="currentPrice">₹00</span>
+                </div>  
+                <div class="priceinfo flex space-between">
+                    <span>Discount</span>
+                    <span class="free">₹00</span>
+                </div>  
+                <div class="priceinfo flex space-between">
+                    <span>Delivery Charges</span>
+                    <span class="free">free</span>
+                </div> 
+                <div class="priceinfo total flex space-between">
+                    <span>Total Amount</span>
+                    <span class="TotalAmount">₹00</span>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+
+
+</body>
+
+</html>
